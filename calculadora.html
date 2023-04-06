@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"crossorigin="anonymous"/>
+    <!--Css-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col-3"></div>
+        <div class="col-9 calculadora">
+          <div class="col fondo">
+            <div class="titulo">
+              <h1>Calculadora</h1>
+              <h2>Los computines</h2>
+            </div>
+            <div class="pantalla">
+              <input id="resultado" type="number"></input>
+            </div>
+            <!--BOTONES-->
+            <div class="container text-center botnoes-operetivos-borrar ">
+              <div class="row align-items-start botones-operaciones">
+                <button class="operacionborrar" id="igual"> borrar </button>
+              </div>
+            </div>
+
+            <div class="container text-center botnoes-operetivos">
+              <div class="row align-items-start botones-operaciones">
+                <div class="col-3">
+                  <button class="operaciones" id="dividir">/</button>
+                </div>
+                <div class="col-3">
+                  <button class="operaciones" id="multiplicar">X</button>
+                </div>
+                <div class="col-3">
+                  <button class="operaciones" id="restar">-</button>
+                </div>
+                <div class="col-3">
+                  <button class="operaciones" id="sumar">+</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="container text-center botone-igual ">
+              <div class="row align-items-start botones-operaciones">
+                <button class="operacionIgual" id="igual">=</button>
+              </div>
+            </div>
+            
+            <div class="container text-center botones-numerales-arriba">
+              <div class="row align-items-start">
+                <div class="col-4">
+                  <button class="boton-calculadora" id="nuemeroSiete">7</button>
+                </div>
+                <div class="col-4">
+                  <button class="boton-calculadora segunda-fila" id="numeroOcho">8</button>
+                </div>
+                <div class="col-4">
+                  <button class="boton-calculadora tercera-fila" id="numeroNueve">9</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="container text-center botones-numerales-central">
+              <div class="row align-items-start">
+                <div class="col-4">
+                  <button class="boton-calculadora" id="numeroCuatro">4</button>
+                </div>
+                <div class="col-4">
+                  <button class="boton-calculadora segunda-fila" id="numeroCinco">5</button>
+                </div>
+                <div class="col-4">
+                  <button class="boton-calculadora tercera-fila" id="numeroSeis">6</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="container text-center botones-numerales-abajo">
+              <div class="row align-items-start">
+                <div class="col-4">
+                  <button class="boton-calculadora" id="numeroUno">1</button>
+                </div>
+                <div class="col-4">
+                  <button class="boton-calculadora segunda-fila" id="numeroDos">2</button>
+                </div>
+                <div class="col-4">
+                  <button class="boton-calculadora tercera-fila" id="numeroTres">3</button>
+                </div>
+              </div>
+            </div>
+            <!--FIN DE BOTONES-->
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!--JS-->
+    <script src="js/main.js"></script>
+  </body>
 </html>

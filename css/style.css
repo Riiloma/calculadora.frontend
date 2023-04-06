@@ -1,0 +1,149 @@
+.fondo{
+    position: relative;
+    top: 15px;
+    width: 500px;
+    height: 550px;
+    border-radius: 50px;
+    box-shadow: -0px 0px 5px #000;
+    background-color: #FFD9E3;
+}
+.titulo{
+    position: relative;
+    top: 8px;
+    border-radius: 50px;
+    margin: 0% auto;
+    background-color: #FFECF1;
+    box-shadow: -0px 0px 5px #000;
+    width: 96%;
+    height: 96%;
+    color: rgb(0, 0, 0);
+    z-index: 1
+}
+.pantalla input{
+    position: relative;
+    box-shadow: 0px 5px 10px #000;
+    top: -400px;
+    width: 440px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    margin: 0% auto;
+    background-color: aliceblue;
+    font-size: 1.5rem;
+    z-index: 2;
+}
+.segunda-fila{
+    position: relative;
+    left: -60px; 
+}
+.tercera-fila{
+    position: relative;
+    left: -120px; 
+}
+.boton-calculadora {
+    position: relative;
+    margin: -2%;
+    margin-bottom: 40px;
+    width: 90px ;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #FFB2C7;
+    color: #FFECF1;
+    font-size: 1.5rem;
+    box-shadow: -5px 0px 10px #000;
+    transition: 0.5s;
+    z-index: 2;
+}
+.boton-calculadora:hover {
+   transition: 0.5s;
+   box-shadow: -7px 0px 15px #000;
+   transform: scale(1.1);
+}
+
+.botones-operaciones{
+    height: 200px; /* altura fija */
+    display: flex;
+    flex-direction: column; /* dirección vertical */
+}
+.operaciones{
+    box-shadow: -5px 0px 10px #000;
+    position: relative;
+    left: 350px;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 5px;
+    display: block;
+    transition: 0.5s;
+    font-size: 1.3rem;
+    z-index: 2;
+}
+.operaciones:hover{
+    transition: 0.5s;
+    box-shadow: -7px 0px 15px #000;
+    transform: scale(1.1);
+}
+.operacionIgual{
+    box-shadow: -5px 0px 10px #000;
+    position: relative;
+    left: 100px;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 5px;
+    display: block;
+    transition: 0.5s;
+    font-size: 1.4rem;
+    text-align: center;
+    z-index: 2;
+}
+.operacionIgual:hover{
+    transition: 0.5s;
+    box-shadow: -7px 0px 15px #000;
+    transform: scale(1.1);
+}
+.operacionborrar{
+    position: relative;
+    left: 360px;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 5px;
+    display: block;
+    transition: 0.5s;
+    font-size: 1.3rem;
+    box-shadow: -5px 0px 10px #000;
+    z-index: 2;
+}
+.operacionborrar:hover{
+    transition: 0.5s;
+    box-shadow: -7px 0px 15px #000;
+    transform: scale(1.1);
+}
+
+.botnoes-operetivos{
+    position: relative;
+    top: -530px;
+}
+.botnoes-operetivos-borrar{
+    position: relative;
+    top: -380px;
+}
+.botones-numerales-arriba{
+    position: relative;
+    top: -770px;
+}
+
+.botones-numerales-central{
+    position: relative;
+    top: -770px;
+}
+.botones-numerales-abajo{
+    position: relative;
+    top: -770px;
+}
+.botone-igual{
+    height: 10px;
+    position: relative;
+    top: -500px;
+}
