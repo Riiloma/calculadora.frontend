@@ -21,3 +21,7 @@ luego esta la funcion para borrar y otra funcion que nos dara el resultado
 y para el tema de borrar basicamente apretamos el boton borrar jquery lo detecta y limpia el resultado
 
 en la funcion donde topa la id igual, ocupamos un switch para determinar que operacion opto el usuario, despues de detectar se hace la logica
+
+
+
+hola hola
