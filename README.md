@@ -17,11 +17,11 @@ En la función donde se topa la ID, igual, ocupamos un switch para determinar qu
 Por último, para el tema de borrar, básicamente apretamos el botón "borrar" y jQuery lo detecta y limpia el resultado.
 
 
-Repositorio Genesis: 
+Repositorio Genesis: https://github.com/GenesisPaola/calculadora.frontend
 
 Repositorio Livio: https://github.com/Riiloma/calculadora.frontend
 
 Repositorio Felipe: https://github.com/Pipeabf/calculadora.frontend
 
-Repositorio Sergio:
+Repositorio Sergio: https://github.com/xiu55/calculadora.frontend
 
